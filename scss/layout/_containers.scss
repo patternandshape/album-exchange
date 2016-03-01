@@ -1,0 +1,10 @@
+.container {
+  @extend %flex;
+  flex-direction: column;
+}
+
+.main-container {
+  @extend %flex;
+  align-content: space-between;
+  border: 5px solid red;
+}

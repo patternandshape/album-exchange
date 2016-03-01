@@ -1,0 +1,84 @@
+/* Base Styles -------------------- */
+body {
+  background: #252525; }
+
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  color: #fff;
+  letter-spacing: .1em;
+  font-size: 4em;
+  margin: 0 auto;
+  padding-bottom: 20px; }
+
+.fancy {
+  color: #B74ACC; }
+
+p {
+  font-family: 'Capriola', sans-serif;
+  color: #a6a6a6;
+  font-size: .8em; }
+
+header {
+  flex-direction: column;
+  align-items: center; }
+
+p {
+  padding-bottom: 40px; }
+
+.search-group {
+  min-width: 450px; }
+
+input {
+  padding: 10px 25px; }
+  input[type="text"] {
+    flex: 1;
+    font-size: .9em; }
+
+footer {
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 1.7em; }
+
+.container {
+  flex-direction: column; }
+
+.main-container {
+  align-content: space-between;
+  border: 5px solid red; }
+
+.col-2, .col-3 {
+  flex-direction: column;
+  width: 250px; }
+  .col-2 a, .col-3 a {
+    text-decoration: none;
+    color: #fff; }
+    .col-2 a h3, .col-3 a h3 {
+      font-family: 'Capriola', sans-serif; }
+
+.col-1 {
+  flex-wrap: wrap;
+  justify-content: right;
+  flex-grow: 1;
+  width: 800px; }
+
+.col-2 {
+  width: 250px;
+  order: -1;
+  text-align: right;
+  align-content: center; }
+
+.col-3 {
+  width: 250px; }
+
+header, .search-group, footer, .social, .container, .main-container, .col-2, .col-3, .col-1 {
+  display: flex; }
+
+/* Web fonts --------*/
+input[type="submit"] {
+  cursor: pointer;
+  background-color: #B74ACC;
+  border: 0;
+  font-size: .8em; }
+
+/*# sourceMappingURL=application.css.map */

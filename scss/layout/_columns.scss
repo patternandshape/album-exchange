@@ -1,0 +1,31 @@
+.col-2, .col-3 {
+  @extend %flex;
+  flex-direction: column;
+  width: 250px;
+  a {
+    text-decoration: none;
+    color: #fff;
+    h3 {
+      font-family: 'Capriola', sans-serif;
+    }
+  }
+}
+
+.col-1 {
+  @extend %flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  flex-grow: 1;
+  width: 800px;
+}
+
+.col-2 {
+  width: 250px;
+  order: -1;
+  text-align: right;
+  align-content: center;
+}
+
+.col-3 {
+  width: 250px;
+}
