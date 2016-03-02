@@ -1,7 +1,8 @@
 .col-2, .col-3 {
   @extend %flex;
   flex-direction: column;
-  width: 250px;
+  width: 25%;
+  align-items: center;
   a {
     text-decoration: none;
     color: #fff;
@@ -14,18 +15,23 @@
 .col-1 {
   @extend %flex;
   flex-wrap: wrap;
-  justify-content: right;
-  flex-grow: 1;
-  width: 800px;
+  width: 50%;
+  // width: calc(50vw - 0.16em);
+  align-content: center;
+  img {
+    padding: .4em;
+  }
 }
 
+// div.col-1 {
+//   margin-right: 0;
+// }
+
 .col-2 {
-  width: 250px;
   order: -1;
   text-align: right;
   align-content: center;
 }
 
-.col-3 {
-  width: 250px;
-}
+// .col-3 {
+// }
