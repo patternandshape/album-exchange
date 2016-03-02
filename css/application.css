@@ -81,7 +81,8 @@ footer {
 
 .col-1 {
   flex-wrap: wrap;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 800px; }
   .col-1 img {
     padding: .4em; }
 
