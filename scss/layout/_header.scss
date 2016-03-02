@@ -17,10 +17,12 @@ p {
 
 
 input {
+  border: 0px inset #fff;
   padding: 10px 25px;
   &[type="text"] {
   flex: 1;
   font-size: .9em;
   border-radius: 25px;
+  outline: none;
 }
 }

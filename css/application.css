@@ -34,11 +34,13 @@ p {
   padding-bottom: 60px; }
 
 input {
+  border: 0px inset #fff;
   padding: 10px 25px; }
   input[type="text"] {
     flex: 1;
     font-size: .9em;
-    border-radius: 25px; }
+    border-radius: 25px;
+    outline: none; }
 
 footer {
   padding: 50px 0;
@@ -58,15 +60,15 @@ footer {
 .container {
   flex-direction: column;
   margin: 0 auto;
-  width: 90%; }
+  width: 80%; }
 
 .main-container {
   align-items: center;
-  margin: 0 auto; }
+  justify-content: space-around; }
 
 .col-2, .col-3 {
   flex-direction: column;
-  width: 25%;
+  flex: 1;
   align-items: center; }
   .col-2 a, .col-3 a {
     text-decoration: none;
@@ -79,8 +81,7 @@ footer {
 
 .col-1 {
   flex-wrap: wrap;
-  width: 50%;
-  align-content: center; }
+  justify-content: center; }
   .col-1 img {
     padding: .4em; }
 
