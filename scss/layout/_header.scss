@@ -1,0 +1,26 @@
+header {
+  @extend %flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  padding-bottom: 50px;
+}
+
+.search-group {
+    @extend %flex;
+    min-width: 450px;
+    padding-bottom: 60px;
+}
+
+
+input {
+  padding: 10px 25px;
+  &[type="text"] {
+  flex: 1;
+  font-size: .9em;
+  border-radius: 25px;
+}
+}

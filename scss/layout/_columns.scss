@@ -1,0 +1,35 @@
+.col-2, .col-3 {
+  @extend %flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: #a6a6a6;
+    &:hover {
+      color: #fff;
+    }
+    h3 {
+      font-family: 'Capriola', sans-serif;
+      font-weight: normal;
+    }
+  }
+}
+
+.col-1 {
+  @extend %flex;
+  flex-wrap: wrap;
+  width: 50%;
+  // width: calc(50vw - 0.16em);
+  align-content: center;
+  img {
+    padding: .4em;
+  }
+}
+
+
+.col-2 {
+  order: -1;
+  text-align: right;
+  align-content: center;
+}
